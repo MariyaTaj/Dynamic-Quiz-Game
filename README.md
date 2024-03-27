@@ -1,7 +1,7 @@
 # Dynamic-Quiz-Game
 **Dynamic Quiz Game**
 
-This repository contains a concise Jupyter Notebook (`quiz_game.ipynb`) for a dynamic quiz game written in Python. Users are prompted to play the game and, upon agreement, they answer a series of questions. Their responses are evaluated against predefined answers, and a final score is provided at the end.
+This repository contains a concise Jupyter Notebook (`Dynamic Quiz Game.ipynb`) for a dynamic quiz game written in Python. Users are prompted to play the game and, upon agreement, they answer a series of questions. Their responses are evaluated against predefined answers, and a final score is provided at the end.
 
 ### Usage
 
@@ -11,7 +11,7 @@ This repository contains a concise Jupyter Notebook (`quiz_game.ipynb`) for a dy
 git clone https://github.com/your-username/dynamic-quiz-game.git
 ```
 
-2. Open the Jupyter Notebook `quiz_game.ipynb`.
+2. Open the Jupyter Notebook `Dynamic Quiz Game.ipynb`.
 
 3. Run each cell in the notebook to play the game.
 
