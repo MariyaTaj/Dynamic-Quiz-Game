@@ -1,4 +1,4 @@
-# Dynamic-Quiz-Game
+# Python Projects
 **Dynamic Quiz Game**
 
 This repository contains a concise Jupyter Notebook (`Dynamic Quiz Game.ipynb`) for a dynamic quiz game written in Python. Users are prompted to play the game and, upon agreement, they answer a series of questions. Their responses are evaluated against predefined answers, and a final score is provided at the end.
@@ -6,48 +6,31 @@ This repository contains a concise Jupyter Notebook (`Dynamic Quiz Game.ipynb`) 
 ### Usage
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/your-username/dynamic-quiz-game.git
 ```
-
 2. Open the Jupyter Notebook `Dynamic Quiz Game.ipynb`.
-
 3. Run each cell in the notebook to play the game.
-
 4. Answer each question and see your final score.
+
+**Password Manager**
+This Python script serves as a basic password manager. It allows users to store and retrieve passwords securely using the Fernet encryption algorithm.
+
+### Features
+Encryption: Passwords are encrypted using the Fernet symmetric encryption algorithm, ensuring security.
+Master Password: Users are required to enter a master password to access stored passwords, adding an additional layer of security.
+Add and View Passwords: Users can add new passwords or view existing ones.
+Persistent Storage: Passwords are stored in a file (passwords.txt) and encrypted, allowing for persistence between sessions.
+
+### How to Use
+1. Set Up: Before running the script, ensure you have the cryptography library installed (pip install cryptography).
+2. Master Password: When prompted, enter your master password. This will be used along with the key to encrypt and decrypt passwords.
+3. Options:
+   view: View existing passwords stored in passwords.txt.
+   add: Add a new password to the manager.
+   q: Quit the program.
 
 ### Requirements
 
 - Jupyter Notebook
 - Python 3.x
-
-### How it Works
-
-1. Users decide if they want to play.
-
-2. If agreed, questions are presented one by one.
-
-3. Users provide answers, which are then evaluated.
-
-4. Correct answers earn points.
-
-5. After all questions, the final score is displayed.
-
-### Customization
-
-Customize questions and answers easily by modifying the `question_answer` dictionary in the notebook.
-
-```python
-question_answer = {
-    "Question 1": "Answer 1",
-    "Question 2": "Answer 2",
-    # Add more as desired
-}
-```
-
-### Contribution
-
-Contributions to enhance the game or fix issues are welcome. Fork the repository, make changes, and submit a pull request. For feedback or suggestions, open an issue.
-
-Enjoy the quiz game! 🎉
