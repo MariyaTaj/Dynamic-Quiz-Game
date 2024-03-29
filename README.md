@@ -1,5 +1,5 @@
 # Python Projects
-### Dynamic Quiz Game
+### 1. Dynamic Quiz Game
 This repository contains a concise Jupyter Notebook (`Dynamic Quiz Game.ipynb`) for a dynamic quiz game written in Python. Users are prompted to play the game and, upon agreement, they answer a series of questions. Their responses are evaluated against predefined answers, and a final score is provided at the end.
 
 **Usage**
@@ -12,7 +12,7 @@ git clone https://github.com/your-username/dynamic-quiz-game.git
 3. Run each cell in the notebook to play the game.
 4. Answer each question and see your final score.
 
-### Password Manager
+### 2. Password Manager
 This Python script serves as a basic password manager. It allows users to store and retrieve passwords securely using the Fernet encryption algorithm.
 
 **Features**
