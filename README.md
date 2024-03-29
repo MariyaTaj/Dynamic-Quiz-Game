@@ -17,8 +17,7 @@ This Python script retrieves and displays NBA statistics and scores using data f
 
 **Functionality**
  1. Scoreboard: Retrieves and displays the current scoreboard, including teams, scores, game clock, and period.
-
- 2.Team Statistics: Retrieves and displays statistics for NBA teams, including points per game (PPG).
+ 2. Team Statistics: Retrieves and displays statistics for NBA teams, including points per game (PPG).
 
 **Usage**
 
